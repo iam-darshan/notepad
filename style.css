@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#bg {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  background: #d8e8e0;
+  background: linear-gradient(90deg, rgba(216, 232, 224, 1) 0%, rgba(68, 234, 242, 1) 100%);
+  );
+  background-color: rgb(214, 187, 187);
+  /* background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(14, 45, 51, 1) 100%,
+    rgba(87, 199, 133, 1) 94%,
+    rgba(232, 229, 197, 1) 55%
+  ); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#bg.dark{
+  background: #541212;
+  background: linear-gradient(90deg, rgb(53, 5, 5) 0%, rgba(0, 0, 0, 1) 75%);
+}
+
+#bg.sky{
+  background-image: url(https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+#bg.dream{
+  background-image: url(https://thumbs.dreamstime.com/b/purple-cumulus-dreamscape-abstract-aesthetic-landscape-background-stunning-purple-cumulus-dreamscape-abstract-aesthetic-331310551.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+
+
+
+#note {
+  rows: 100;
+  columns: 30;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Outfit, Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(241, 234, 234);
+  margin-top: 5px;
+}
+
+#note.dark{
+  rows: 100;
+  columns: 30;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Outfit, Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background: rgb(39, 5, 5);
+  margin-top: 5px;
+}
+
+#note.sky{
+  /* background-image: url(https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size:cover ;
+  background-repeat: no-repeat; */
+  background-color: lightblue;
+}
+#note.dream{
+  background-color: rgb(226, 182, 201);
+  /* background-image: url(https://thumbs.dreamstime.com/b/purple-cumulus-dreamscape-abstract-aesthetic-landscape-background-stunning-purple-cumulus-dreamscape-abstract-aesthetic-331310551.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat; */
+}
+
+
+
+
+.pad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: outfit;
+}
+
+select{
+  height: 35px;
+  border-radius: 5px;
+  font-family: outfit;
+}
